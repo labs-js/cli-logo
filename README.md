@@ -20,9 +20,17 @@ npm install --save logo-cli
 ```javascript
 
 var logo = require('logo-cli'),
-    version = require('package.json').version;
+    version = 'v' + require('./package.json').version,
+	description = require('./package.json').description;
+    config = {
+        "name": "tool name",
+        "description": description,
+        "version": version,
+        "type":"Standard",
+        "color":"green"
+    };
 
-logo.print({'name': 'my tool name', 'color':'green', 'version': version})
+logo.print(config);
 
 ```
 
