@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "nyc jasmine-node --verbose --captureExceptions test",
-    "test:watch": "nyc jasmine-node --verbose --autotest --captureExceptions test"
+    "test:watch": "nyc jasmine-node --verbose --autotest --captureExceptions test",
+    "coverage": "nyc report --reporter=text-lcov > coverage.json"
   },
   "dependencies": {
   },
