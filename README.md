@@ -34,6 +34,10 @@ logoCli.print(LogoConfig);
 
 > As optional parameters on the **logoConfig** you can use also: `"type":"Standard"` & `"color":"green"`
 
+> `type` is the font type supported by [figlet](https://www.npmjs.com/package/figlet)
+
+> `color` is the color name supported by [colors](https://www.npmjs.com/package/colors)
+
 
 #### This package was genareted with [envinator](https://github.com/sfabrizio/envinator) -> Fast develoment 😎🙌
 
