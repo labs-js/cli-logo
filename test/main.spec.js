@@ -8,5 +8,4 @@ describe('main', function() {
     it('should have print property', function() {
         expect(main.print).toBeDefined();
     });
-
 });
