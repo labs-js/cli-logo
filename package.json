@@ -1,5 +1,5 @@
 {
-  "name": "logo-cli",
+  "name": "cli-logo",
   "version": "0.1.0",
   "description": "A standar way to create logos for CLIs using ASCII art and the package version.",
   "main": "index.js",
@@ -10,11 +10,11 @@
     "coverage": "nyc report --reporter=text-lcov > coverage.json"
   },
   "dependencies": {
-    "turbo-logo": "^0.4.0"
+    "turbo-logo": "^0.4.1"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5",
-    "nyc": "^8.1.0"
+    "nyc": "^11.0.2"
   },
   "engines": {
     "node": "7"
