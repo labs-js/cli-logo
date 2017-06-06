@@ -1,6 +1,6 @@
 {
   "name": "cli-logo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A standar way to create logos for CLIs using ASCII art and the package version.",
   "main": "index.js",
   "scripts": {
