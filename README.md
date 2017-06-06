@@ -23,7 +23,7 @@ var logoCli = require('cli-logo'),
     version = 'v' + require('./package.json').version,
 	description = require('./package.json').description;
     logoConfig = {
-        "name": "tool name",
+        "name": "CoolName",
         "description": description,
         "version": version
     };
@@ -31,6 +31,13 @@ var logoCli = require('cli-logo'),
 logoCli.print(LogoConfig);
 
 ```
+
+## This will be the result:
+
+<p align="center">
+  <img src="./preview.png" width="400"/>
+</p>
+
 
 > As optional parameters on the **logoConfig** you can use also: `"type":"Standard"` & `"color":"green"`
 
