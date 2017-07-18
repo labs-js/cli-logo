@@ -21,7 +21,7 @@ npm install --save cli-logo
 
 var logoCli = require('cli-logo'),
     version = 'v' + require('./package.json').version,
-	description = require('./package.json').description;
+    description = require('./package.json').description,
     logoConfig = {
         "name": "CoolName",
         "description": description,
